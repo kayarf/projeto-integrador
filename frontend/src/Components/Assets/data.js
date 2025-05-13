@@ -12,19 +12,19 @@ let data_product = [
     
   },
   {id:2,
-    name:"SEX2",
+    name:"Mouse Gamer Redragon Cobra, Chroma RGB, 10000DPI, 7 Botões, Preto",
     image:p2_img,
-    price:85.00,
+    price:89.99,
     
   },
   {id:3,
-    name:"SEX3",
+    name:"TESTE",
     image:p3_img,
     price:60.00,
     
   },
   {id:4,
-    name:"SEX4",
+    name:"TESTE2",
     image:p4_img,
     price:100.00,
     

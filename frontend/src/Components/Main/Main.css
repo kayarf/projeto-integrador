@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: flex-start;
   background-color: rgb(235, 230, 230);
-  padding-top: 40px; /* reduz a distância do topo */
-  padding-bottom: 0;
+  padding-top: 40px; 
+  padding-bottom: 40px;
 }
 
 .main-banner {

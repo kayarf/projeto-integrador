@@ -12,10 +12,12 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div className='nav-logo'><img src={logo} alt=''/>
+      <div className='nav-logo'><Link to='/' onClick={() => setMenu('')}>
+      <img src={logo} alt='' />
+      </Link>
+      <p>BoostTech</p>
       </div>
       <ul className="nav-menu">
-        <li onClick={()=>{setMenu('shop')}}><Link style={{textDecoration: 'none'}} to='/'>Shop</Link>{menu==='shop'?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu('teclados')}}><Link style={{textDecoration: 'none'}} to='/teclados'>Teclados</Link>{menu==='teclados'?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu('mouses')}}><Link style={{textDecoration: 'none'}} to='/mouses'>Mouses</Link>{menu==='mouses'?<hr/>:<></>}</li>
         <li onClick={()=>{setMenu('mousepads')}}><Link style={{textDecoration: 'none'}} to='/mousepads'>Mousepads</Link>{menu==='mousepads'?<hr/>:<></>}</li>
