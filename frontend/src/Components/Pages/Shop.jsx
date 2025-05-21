@@ -2,7 +2,7 @@ import React from 'react'
 import Main from '../Main/Main'
 import Popular from '../Popular/Popular'
 import Lancamentos from '../Lançamentos/Lancamentos'
-import { Footer } from '../Footer/Footer'
+import { NewsLetter } from '../NewLetters/NewsLetter'
 
 const Shop = () => {
   return (
@@ -10,7 +10,7 @@ const Shop = () => {
       <Main></Main>
       <Popular></Popular>
       <Lancamentos></Lancamentos>
-      <Footer></Footer>
+      <NewsLetter></NewsLetter>
     </div>
   )
 }
