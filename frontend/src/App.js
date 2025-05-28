@@ -1,11 +1,11 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import ShopCategory from './Components/Pages/ShopCategory';
-import Shop from './Components/Pages/Shop';
-import Product from './Components/Pages/Product';
-import Login from './Components/Pages/Login';
-import Cart from './Components/Pages/Cart';
+import ShopCategory from './Pages/ShopCategory';
+import Shop from './Pages/Shop';
+import Product from './Pages/Product';
+import Login from './Pages/Login';
+import Cart from './Pages/Cart';
 import { Footer } from './Components/Footer/Footer';
 import teclado_banner from './Components/Assets/banner_teclado.png'
 import mouse_banner from './Components/Assets/banner_mouse.png'

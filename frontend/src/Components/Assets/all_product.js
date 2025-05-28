@@ -38,7 +38,7 @@ import p36_img from "./product_36.png";
 let all_product = [
   {
     id: 1,
-    name: "teste",
+    name: "teclado gamer muito foda cinema demais",
     category: "teclado",
     image: p1_img,
     price:60.00,

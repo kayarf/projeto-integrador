@@ -1,0 +1,32 @@
+.relatedproducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* Remova a altura fixa ou ajuste para auto */
+    height: auto; /* Isso permite que o conteúdo determine a altura */
+    margin-bottom: 30px; /* Adiciona espaço abaixo do componente */
+    padding: 40px 0; /* Mantém um padding interno vertical */
+}
+
+/* Mantenha o resto do CSS como está */
+.relatedproducts h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px; /* Ajuste opcional para o título */
+}
+
+.relatedproducts hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: black;
+    margin-bottom: 20px; /* Ajuste opcional para a linha */
+}
+
+.relatedproducts-item {
+    margin-top: 30px; /* Reduzi de 50px para 30px */
+    display: flex;
+    gap: 30px;
+}
