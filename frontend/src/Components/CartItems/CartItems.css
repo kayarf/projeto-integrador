@@ -1,0 +1,160 @@
+.cartitems {
+  margin: 100px auto;
+  max-width: 1200px;
+  font-family: 'Arial', sans-serif;
+}
+
+.cartitems hr {
+  height: 1px;
+  background: #e2e2e2;
+  border: none;
+  margin: 10px 0;
+}
+
+.cartitems-format-main {
+  display: grid;
+  grid-template-columns: 1.2fr 3fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  padding: 15px 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cartitems-format {
+  display: grid;
+  grid-template-columns: 1.2fr 3fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  padding: 15px 0;
+  font-size: 15px;
+  color: #222;
+}
+
+.carticon-product-icon {
+  height: 62px;
+  object-fit: contain;
+}
+
+.cartitems-remove-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.cartitems-quantity {
+  width: 60px;
+  height: 35px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.cartitems-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 60px;
+  padding: 40px 60px;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cartitems-total {
+  flex: 1;
+  min-width: 300px;
+}
+
+.cartitems-total h1 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.cartitems-total-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.cartitems-total hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 5px 0;
+}
+
+.cartitems-total h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.cartitems-total button {
+  margin-top: 30px;
+  width: 240px;
+  height: 45px;
+  background-color: #e63946;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cartitems-total button:hover {
+  background-color: #c92c3a;
+}
+
+.cartitems-promocode {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cartitems-promocode p {
+  font-size: 14px;
+  color: #555;
+}
+
+.cartitems-promobox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeeeee;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+}
+
+.cartitems-promobox input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  background-color: #eeeeee;
+  outline: none;
+}
+
+.cartitems-promobox button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: normal;
+  border: 1px solid #aaa;
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cartitems-promobox button:hover {
+  background-color: #ddd;
+}
