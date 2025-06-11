@@ -4,7 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import ShopCategory from './Pages/ShopCategory';
 import Shop from './Pages/Shop';
 import Product from './Pages/Product';
-import Login from './Pages/Login';
+import { LoginSignup } from './Pages/LoginSignup';
 import Cart from './Pages/Cart';
 import { Footer } from './Components/Footer/Footer';
 import teclado_banner from './Components/Assets/banner_teclado.png'
@@ -30,7 +30,7 @@ function App() {
           <Route path=':productId' element={<Product/>}/>
         </Route>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='/login' element={<Login/>}/>
+        <Route path='/login' element={<LoginSignup/>}/>
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

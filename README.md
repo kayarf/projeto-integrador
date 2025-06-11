@@ -6,6 +6,8 @@ npm install react-router-dom
 
 backend
 
+node .\index.js
+
 npm install express
 
 npm install jsonwebtoken

@@ -9,8 +9,8 @@ import p8_img from "./product_28.png";
 
 let new_collections = [
   {
-    id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    id: 1,
+    name: "Teste",
     image: p1_img,
     price: 50.0,
     
