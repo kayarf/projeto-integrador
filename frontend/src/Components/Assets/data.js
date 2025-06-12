@@ -6,27 +6,27 @@ import p4_img from './product_4.png'
 let data_product = [
   {
     id:1,
-    name:"WLMouse Beast X Mini PRO",
+    name:"Finalmouse ULX Prophecy Small",
     image:p1_img,
-    price:1789.90,
+    price:1979.91,
     
   },
   {id:2,
-    name:"Mouse Gamer Redragon Cobra, Chroma RGB, 10000DPI, 7 Botões, Preto",
+    name:"Pulsar TenZ",
     image:p2_img,
-    price:89.99,
+    price:1619.91,
     
   },
   {id:3,
-    name:"TESTE",
+    name:"Wooting60HE+",
     image:p3_img,
-    price:60.00,
+    price:2399.90,
     
   },
   {id:4,
-    name:"TESTE2",
+    name:"Pulsar eS Arm Sleeve White",
     image:p4_img,
-    price:100.00,
+    price:199.90,
     
   },
 ];
